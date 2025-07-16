@@ -1,0 +1,25 @@
+[project]
+name = "sample-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "gauravms07",email = "gmshastry7@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "sample_project", from = "src"}]
+
+[tool.poetry.scripts]
+sample_project="sample_project.main:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+coverage = "^7.9.2"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
