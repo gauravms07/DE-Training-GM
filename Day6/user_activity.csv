@@ -1,0 +1,16 @@
+user_id,Total Duration,Average Duration,id,name,age,region
+12,40,40.0,12,Lisa,26,South
+1,60,30.0,1,Alice,25,North
+13,50,50.0,13,Mark,38,North
+6,35,35.0,6,Fiona,27,Central
+3,100,50.0,3,Charlie,22,East
+5,85,42.5,5,Ethan,35,North
+15,50,50.0,15,Owen,34,West
+9,45,45.0,9,Ian,29,West
+4,110,55.0,4,Diana,28,West
+8,70,70.0,8,Hannah,33,East
+7,55,55.0,7,George,40,South
+10,30,30.0,10,Jenny,24,North
+11,60,60.0,11,Kevin,31,Central
+14,35,35.0,14,Nina,21,East
+2,100,50.0,2,Bob,30,South

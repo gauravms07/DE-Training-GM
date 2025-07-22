@@ -1,0 +1,35 @@
+Apache Spark command cheat sheet
+
+
+Spark Shell commands
+Command	Description
+spark-shell	Starts the Spark Shell in Scala. This is an interactive environment for running Spark commands.
+pyspark	Starts the Spark Shell in Python. Useful for writing Spark applications using Python.
+sc.version	Displays the version of Spark running in the shell.
+sc.appName	Returns the name of the current application.
+sc.master	Shows the master URL to which the Spark application is connected.
+sc.stop()	Stops the SparkContext, effectively ending the Spark application.
+:quit	Exits the Spark Shell.
+ 
+
+RDD transformations
+Transformation	Description
+map(func)	Returns a new RDD by applying a function to each element of the source RDD.
+filter(func)	Returns a new RDD containing only the elements that satisfy a given condition.
+flatMap(func)	Similar to map, but each input item can be mapped to multiple output items (e.g., by splitting sentences into words).
+distinct()	Returns a new RDD containing distinct elements of the source RDD.
+union(otherRDD)	Merges the content of two RDDs and returns a new RDD.
+intersection(otherRDD)	Returns an RDD that contains only the common elements between two RDDs.
+groupByKey()	Groups the data by key and returns a new RDD of (key, iterable) pairs.
+join(otherRDD)	Joins two RDDs by their keys and returns an RDD of (key, (value1, value2)) pairs.
+ 
+
+Actions
+Action	Description
+collect()	Returns all the elements of the RDD as an array to the driver program.
+count()	Counts the number of elements in the RDD and returns the result to the driver.
+take(n)	Returns the first n elements of the RDD.
+reduce(func)	Aggregates the elements of the RDD using a specified binary function.
+saveAsTextFile(path)	Saves the contents of the RDD to a text file at the specified path.
+countByKey()	Counts the number of elements for each key in a pair RDD and returns the count to the driver.
+foreach(func)	Applies a function to each element of the RDD. This is often used for side effects such as updating an accumulator variable or interacting with external storage.
