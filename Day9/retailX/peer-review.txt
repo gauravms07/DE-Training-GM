@@ -1,0 +1,24 @@
+Area Reviewed - Feedback
+Problem Understanding -	Clearly grasps the goal of tracking historical changes in a customer dimension table using SCD Type-2 logic. Good articulation of real-world use cases.
+
+Data Setup - Source and existing dimension DataFrames are created with explicit schema definitions, which is good practice to avoid Spark type inference issues.
+
+Change Detection Logic - Logic is implemented using a left join and comparison of non-key attributes (Address, LoyaltyTier). This is correct and aligns with standard SCD2 detection methods.
+
+New vs Changed vs Unchanged	Clearly differentiates between new, changed, and unchanged records. The logic for each case is correctly applied and easy to follow.
+
+SCD Columns Handling - Proper use of StartDate, EndDate, and IsCurrent. Expired records are updated correctly, and new versions are added with appropriate defaults.
+
+Surrogate Key Strategy - Uses monotonically_increasing_id() for surrogate keys. While acceptable for demo, in production this is non-deterministic and should be replaced with a UUID or sequence generator.
+
+Code Modularity - The logic is currently written as a monolithic script. Modularizing into reusable functions (e.g., detectChanges(), applySCD2()) would increase reusability and readability.
+
+Assumptions & Edge Cases - Assumes CustomerID is unique in both source and target datasets. No deduplication or null handling was applied, which could be added for robustness.
+
+Output Handling	- Final merged DataFrame is printed but not written to storage (e.g., Delta table). A .write.format("delta")... step would complete the pipeline.
+
+Scalability - Works well for a batch demo. For large datasets or streaming contexts, performance tuning (e.g., broadcast joins, caching) and fault tolerance (checkpointing) will be needed.
+
+Documentation - Code is understandable but lacks inline comments and logging. Adding those would help others follow the transformations step-by-step.
+
+Reusability & Configurability - Parameters like primary key, tracked fields, and output path are hardcoded. Extracting these into configs or arguments would make the script reusable across dimension tables.
