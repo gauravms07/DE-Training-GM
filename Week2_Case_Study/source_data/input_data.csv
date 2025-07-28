@@ -1,0 +1,21 @@
+Order_ID,Customer_ID,Customer_FirstName,Customer_LastName,Customer_Email,Order_Date,Order_Status,Product_ID,Product_Name,Product_category,Quantity_Ordered,Price_Per_Unit,Inventory_ID
+ORD001,CUST01,John,Doe,john.doe@email.com,2025-07-20 10:00:00,Shipped,PROD001,Laptop Pro,Electronics,1,1200.00,INV001-P001
+ORD001,CUST01,John,Doe,john.doe@email.com,2025-07-20 10:00:00,Shipped,PROD002,Wireless Mouse,Accessories,2,25.00,INV001-P002
+ORD002,CUST02,Jane,Smith,jane.smith@email.com,2025-07-21 14:30:00,Processing,PROD003,Mechanical Keyboard,Accessories,1,150.00,INV002-P003
+ORD003,CUST03,Alice,Johnson,alice.johnson@email.com,2025-07-22 09:15:00,Pending,PROD010,Smartphone X,Electronics,1,900.00,INV003-P010
+ORD003,CUST03,Alice,Johnson,alice.johnson@email.com,2025-07-22 09:15:00,Pending,PROD005,HD Monitor,Electronics,1,300.00,INV003-P005
+ORD004,CUST04,Bob,Brown,bob.brown@email.com,2025-07-23 18:45:00,Shipped,PROD020,Sports Watch,Sports,1,199.00,INV004-P020
+ORD005,CUST05,Hannah,Lee,hannah.lee@email.com,2025-07-24 11:00:00,Processing,PROD015,Running Shoes,Sports,2,120.00,INV005-P015
+ORD006,CUST06,George,Clark,george.clark@email.com,2025-07-24 16:10:00,Pending,PROD012,Smart Speaker,Electronics,1,180.00,INV006-P012
+ORD006,CUST06,George,Clark,george.clark@email.com,2025-07-24 16:10:00,Pending,PROD008,Bluetooth Headphones,Electronics,1,75.00,INV006-P008
+ORD007,CUST07,Fiona,Martinez,fiona.martinez@email.com,2025-07-25 08:30:00,Shipped,PROD025,Tablet Mini,Electronics,1,400.00,INV007-P025
+ORD008,CUST08,Ian,Walker,ian.walker@email.com,2025-07-25 19:20:00,Processing,PROD030,Fitness Band,Sports,1,60.00,INV008-P030
+ORD009,CUST09,Julia,Taylor,julia.taylor@email.com,2025-07-26 12:40:00,Shipped,PROD040,Office Chair,Home,1,150.00,INV009-P040
+ORD010,CUST10,Ethan,Anderson,ethan.anderson@email.com,2025-07-26 14:50:00,Pending,PROD050,Microwave Oven,Home,1,200.00,INV010-P050
+ORD010,CUST10,Ethan,Anderson,ethan.anderson@email.com,2025-07-26 14:50:00,Pending,PROD051,Toaster,Home,1,40.00,INV010-P051
+ORD011,CUST11,Diana,Lopez,diana.lopez@email.com,2025-07-27 09:05:00,Shipped,PROD060,Vacuum Cleaner,Home,1,250.00,INV011-P060
+ORD012,CUST12,Bob,Hall,bob.hall@email.com,2025-07-27 11:30:00,Processing,PROD070,Electric Kettle,Home,1,30.00,INV012-P070
+ORD013,CUST13,Charlie,Young,charlie.young@email.com,2025-07-27 13:10:00,Shipped,PROD080,Desk Lamp,Home,2,20.00,INV013-P080
+ORD014,CUST14,Hannah,King,hannah.king@email.com,2025-07-27 15:45:00,Pending,PROD012,Smart Speaker,Electronics,1,180.00,INV014-P012
+ORD015,CUST15,Ethan,Wright,ethan.wright@email.com,2025-07-27 16:20:00,Shipped,PROD005,HD Monitor,Electronics,1,300.00,INV015-P005
+ORD015,CUST15,Ethan,Wright,ethan.wright@email.com,2025-07-27 16:20:00,Shipped,PROD002,Wireless Mouse,Accessories,1,25.00,INV015-P002
