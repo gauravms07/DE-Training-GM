@@ -1,0 +1,21 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "test_suite",
+  "expectations": [],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "sales_data",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "my_test_datasource",
+          "limit": 1000
+        },
+        "citation_date": "2025-08-01T07:26:34.099879Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.15.39"
+  }
+}

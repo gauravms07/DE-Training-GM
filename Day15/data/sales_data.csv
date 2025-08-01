@@ -1,0 +1,11 @@
+order_id,customer_id,customer,email,total_amount,date,region,product_category,payment_method
+1001,CUST001,Acme Corp,acme.billing@acmecorp.com,249.99,2023-01-15,West,Electronics,Credit
+1002,CUST002,Globex,accounts@globex.com,599.50,2023-01-16,East,Furniture,Wire Transfer
+1003,CUST003,Initech,invoice@initech.com,null,2023-01-17,North,Office Supplies,Check
+1004,CUST004,Umbrella Corp,sales@umbrellacorp.net,1200.00,2023-01-18,West,Electronics,Credit
+1005,CUST005,Wayne Ent,wayne.billing@wayne.com,75.50,2023-01-19,South,Office Supplies,Debit
+1006,CUST006,Stark Ind,finance@starkind.com,3450.75,2023-01-20,East,Industrial Equipment,Wire Transfer
+1007,CUST007,Oscorp,payments@oscorp.com,899.99,2023-01-21,North,Lab Equipment,Credit
+1008,CUST008,Virtucon,billing@virtucon.io,150.00,2023-01-22,West,Software,null
+1009,CUST009,Cyberdyne,accounting@cyberdyne.ai,2250.00,2023-01-23,South,Robotics,Wire Transfer
+1010,CUST010,Monarch Inc,finance@monarchinc.org,42.99,2023-01-24,East,Office Supplies,Debit
